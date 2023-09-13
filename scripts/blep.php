@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
             if ($y >= -5 and $y <= 5){
                 if ($r >= 1 and $r <= 3){
                     $date = date(DATE_RFC2822);
-                    $delta = number_format(microtime(1) - $start, 3);
+                    $delta = number_format((microtime(1) - $start)*1000000,3);
                     $info .= $x . '+' . $y . '+' . $r . '+' . huh($x,$y,$r) . '+' . $delta . '+' . $date;
                     echo $info;
                 }
