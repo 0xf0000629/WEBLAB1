@@ -1,0 +1,96 @@
+@font-face {
+    font-family: rainglyphs;
+    src: url(../fonts/rain-glyphs.ttf);
+}
+* {
+    color:black;
+    border-color: black;
+}
+.center {
+    width: 768px;
+    height: 384px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -384px;
+    margin-left: -384px;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-radius: 4px;
+}
+.videosize {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit:cover;
+}
+table td{
+    align-self: center;
+}
+table th{
+    align-self: center;
+}
+.records {
+    width: 100%;
+    height: 100%;
+    font-family: rainglyphs;
+    border-radius: 4px;
+}
+.data {
+    width: 100%;
+    height: 100%;
+    font-family: rainglyphs;
+} 
+h2, p {
+    font-family: rainglyphs;
+    text-align: center;
+    line-height: 15%;
+}
+label {
+    font-family: rainglyphs;
+}
+.hitbutton{
+    width: 100%;
+    height: 100%;
+    font-family: rainglyphs;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    transition-duration: 0.5;
+}
+
+.hitbutton:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+input[type='text']{
+    width: 100%;
+    height: 100%;
+    font-family: rainglyphs;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    transition-duration: 0.5;
+}
+
+input[type='text']:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.canva{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 4px;
+}
